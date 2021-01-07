@@ -1,0 +1,12 @@
+.sectionFriendList {
+  margin-bottom: 30px;
+}
+
+.friendList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

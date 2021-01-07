@@ -1,0 +1,33 @@
+.sectionTransactions {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.transactionTable {
+  width: 800px;
+  /* margin: 0 auto 30px; */
+  text-align: center;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+.transactionHead {
+  font-size: 14px;
+  background-color: #00bcd5;
+  color: #e3feff;
+  text-transform: uppercase;
+}
+
+.transactionBody {
+  text-transform: capitalize;
+  height: 100px;
+  color: #808080;
+}
+
+.transactionRote {
+  height: 80px;
+}
+
+.transactionRote:nth-child(2n) {
+  background-color: #ecf1f4;
+}
